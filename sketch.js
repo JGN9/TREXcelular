@@ -153,10 +153,10 @@ function draw() {
     }
      if (modo=="jogando"){
     if (touches.length>0){
-      touches=[]
       if (trex.y==374.5){
         trex.velocityY = -12
         pulo.play ()
+        touches=[]
       }
     } console.log(trex.y)
     trex.velocityY = trex.velocityY +0.6                             
