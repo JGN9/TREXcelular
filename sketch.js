@@ -152,8 +152,9 @@ function draw() {
       }
     }
      if (modo=="jogando"){
-    if (touches.length>0){
-
+      
+       if (touches.length>0 && trex.isTouching(solo_invisivel){
+   
         trex.velocityY = -12
         pulo.play ()
         touches=[]
