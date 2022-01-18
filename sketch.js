@@ -146,7 +146,7 @@ function draw() {
   text (score, 10, 170)
 
   if (modo=="início"){
-      if (keyDown("space")||touches.lenght>0){
+      if (keyDown("space")||touches.length>0){
         modo="jogando" 
         touches=[]
       }
